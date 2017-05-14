@@ -17,4 +17,4 @@ console.log(path.resolve(__dirname, 'room/'));
 app.use('/room', room);
 // app.use('/room', express.static(path.resolve(__dirname, 'room/')));
 
-app.listen(8000);
+app.listen(80);
